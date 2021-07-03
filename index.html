@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://kit.fontawesome.com/04b6044f71.js" crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <div class="transaction">
+        <h4>Transaction
+          <span>/ New Transaction</span>
+        </h4>
+        <div class="icons">
+          <i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp; &nbsp;
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="nav-box">
+        <i id="nav-close" class="fa fa-close"></i>
+        <div class="row">
+          <div class="form1">
+            <label>Primary Name</label>
+            <input type="text" class="f1" placeholder="Omar Jamal AlEasawi">
+          </div>
+          <div class="form1">
+            <label>Secondary Name</label>
+            <input type="text" class="f1" placeholder="عمر جمال العيسوى">
+          </div>
+          <div class="form1">
+            <label>patient Number</label>
+            <input type="text" class="f1" placeholder="1">
+            <button class="btn1" type="submit"><i id="s" class="fa fa-search"></i></button>
+          </div>
+          <div class="form1">
+            <label>Request #</label>
+            <button class="btn-req"><i class="fa fa-barcode" aria-hidden="true"></i></button>
+            <input type="text" class="f1" placeholder="1468348">
+            <button class="btn1" id="s1" type="submit"><i id="s1" class="fa fa-plus"></i></button>
+          </div>
+        </div>
+        <div class="row2">
+          <div class="form1">
+            <label>Age #</label>
+            <input type="text" class="f1" placeholder="12 years">
+          </div>
+          <div class="form1">
+            <label>gender</label>
+            <input type="text" class="f1" placeholder="male">
+          </div>
+          <div class="form1">
+            <label>patient Mobile</label>
+            <input type="text" class="f1" placeholder="795050800">
+            <button class="btn1" type="submit"><i id="s" class="fa fa-search"></i></button>
+          </div>
+          <div class="form1">
+            <label>Transaction #</label>
+            <button class="btn-link"><i class="fa fa-external-link" aria-hidden="true"></i></button>
+            <input type="text" class="f1" placeholder="Transaction Number">
+            <button class="btn1"  type="submit"><i id="s" class="fa fa-search"></i></button>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="main">
+        <div class="main-title">
+          <h2>Tests</h2>
+        </div>
+        <div class="main-box">
+          <div class="price">
+            <span id="price1">$ Total Price</span>
+            <p>120.00</p>
+          </div>
+          <div class="price">
+            <span id="price2">$ After Discount</span>
+            <p>70.00</p>
+          </div>
+          <div class="price">
+            <span id="price3">Duration</span>
+            <p>1 Day(s)</p>
+          </div>
+          <div class="price">
+            <span id="price4">Test Count</span>
+            <p>28</p>
+          </div>
+          <div class="price">
+            <button class="price-convert">Convert: Test to Nan profits</button>
+          </div>
+          <div class="check-test">
+            <select name="" id="">
+              <option value="">BC-biocheckup</option>
+            </select>
+            <button class="main-search"><i id="s" class="fa fa-search"></i></button>
+          </div>
+        </div>
+        <table>
+          <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Sample</th>
+            <th>Location</th>
+            <th>Requiremnet</th>
+            <th>TAT</th>
+            <th><i class="fas fa-trash"></i>
+
+            </th>
+          </tr>
+          <tr>
+            <td style="background-color: pink;">URA<br>
+              (BC)
+            </td>
+            <td>URA-Urine Analysis</td>
+            <td>5 JD</td>
+            <td><button class="btns"> Urine</button> </td>
+            <td>BA03</td>
+            <td>It is important to examine fre
+              <br>
+              <div class="box1">
+                Culture if Needed? <button class="yn">Yes</button>&nbsp;&nbsp;<button class="yn">No</button>
+              </div>
+            </td>
+            <td>2 H
+              <i class="fas fa-hourglass"></i>
+            </td>
+            <td>
+              <i style="color: RED;" class="fa fa-close"></i>
+            </td>
+          </tr>
+          <tr>
+            <td style="background-color: pink;">ESR<br>
+              (BC)</td>
+            <td>ESR-Erythrocyte Sedimentation</td>
+            <td>3 JD</td>
+            <td><button class="btns"> EDTA Whole Blood </button> </td>
+            <td>BA03</td>
+            <td>Time Sensitive</td>
+            <td>3 H
+              <i class="fas fa-hourglass"></i>
+            </td>
+            <td>
+              <i style="color: RED;" class="fa fa-close"></i>
+            </td>
+          </tr>
+          <tr>
+            <td style="background-color: pink;">CBC <br>
+              (BC)</td>
+            <td>CBC-Complete Blood Count (CBC)</td>
+            <td style="background-color: pink;">12 JD</td>
+            <td><button class="btns"> EDTA Whole Blood</button> </td>
+            <td>BA03</td>
+            <td>N/A</td>
+            <td>3 H
+              <i class="fas fa-hourglass"></i>
+            </td>
+            <td>
+              <i style="color: RED;" class="fa fa-close"></i>
+            </td>
+          </tr>
+          <tr>
+            <td style="background-color: pink;">GOT <br>
+              (BC)</td>
+            <td>GOT-Aspartate Aminotransferase</td>
+            <td style="background-color: pink;">5 JD</td>
+            <td><button class="btns"> Serum</button> </td>
+            <td>BA04</td>
+            <td>Allow serum tuble to clot compl</td>
+            <td>3 H
+              <i class="fas fa-hourglass"></i>
+            </td>
+            <td>
+              <i style="color: RED;" class="fa fa-close"></i>
+            </td>
+          </tr>
+          <tr>
+            <td style="background-color: pink;">eGFR <br>
+              (BC)</td>
+            <td> eGFR-Estimated Glomerular filt</td>
+            <td>0 JD</td>
+            <td><button class="btns"> Serum</button> </td>
+            <td>BA04</td>
+            <td>CRS Level/Age/Gender/</td>
+            <td>3 H
+              <i class="fas fa-hourglass"></i>
+            <td>
+              <i style="color: RED;" class="fa fa-close"></i>
+            </td>
+            </td>
+
+
+          </tr>
+
+        </table>
+      </div>
+    </main>
+    <div id="sidebar">
+      <div class="d1">
+        Today's Patients
+        <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+      </div>
+      <div class="r">
+        <div class="drop">
+          Requested by
+          <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+        </div>
+        <div class="cons1">
+          <div class="ser2">
+
+            <i id="s" class="fa fa-search"></i> Consultunt1
+          </div>
+
+
+          <select id="drop1">
+            <option value="ABBAS">ABBAS AL-KHATIB</option>
+
+          </select>
+        </div>
+        <div class="cons1">
+          <div class="cons2">
+
+            <i id="s" class="fa fa-search"></i> Consultunt2
+          </div>
+
+
+          <select id="drop1">
+            <option value="ABBAS">......choose......</option>
+
+          </select>
+        </div>
+        <div class="cons1">
+          <div class="ser">
+
+            <i id="s" class="fa fa-search"></i> Insurance
+          </div>
+
+
+          <select id="drop1">
+            <option value="ABBAS">......choose......</option>
+
+          </select>
+        </div>
+        <div class="cons1">
+          <div class="ser">
+
+            <i id="s" class="fa fa-search"></i> Corporate
+          </div>
+
+
+          <select id="drop1">
+            <option value="ABBAS">......choose......</option>
+
+          </select>
+
+          <div class="d2">
+            <label class="tog"> In Patient</label>
+            <label class="switch">
+              <input type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="req">
+        Patient Request
+        <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+      </div>
+      <div class="tran1">
+        Transaction Note
+        <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- <div id="content1">
+            content1
+        </div>
+        <div id="content2">
+            content2
+        </div>
+        <div id="content3">
+            content3
+        </div> -->
+
+  </div>
+</body>
+
+</html>
